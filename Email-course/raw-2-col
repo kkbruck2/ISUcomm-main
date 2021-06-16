@@ -1,0 +1,400 @@
+Return-path: <bounces+36625-04a1-kitebrucker=icloud.com@putsmail.litmus.com>
+Original-recipient: rfc822;kitebrucker@icloud.com
+Received: from st11p00im-smtpin024.me.com by p51-mailgateway-smtp-6c447fd5f9-742v4 (mailgateway 2108B204)
+	with SMTP id 91e6cac5-4ec3-460f-9126-05ce1b771218
+	for <kitebrucker@icloud.com>; Wed, 16 Jun 2021 18:04:02 GMT
+X-Apple-MoveToFolder: INBOX
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 91e6cac5-4ec3-460f-9126-05ce1b771218
+Received: from o1.putsmail.litmus.com (o1.putsmail.litmus.com [50.31.42.65])
+	by st11p00im-smtpin024.me.com (Postfix) with ESMTPS id 2F2A66848A8
+	for <kitebrucker@icloud.com>; Wed, 16 Jun 2021 18:03:55 +0000 (UTC)
+X-ICL-SCORE: 3.3330332300
+X-ICL-INFO: GAtbVUseBVFGSVVESgMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERBUXRVgBEApNRE4GBFdY
+ SVIWSR1dCwEcBAUNU10HB0QPFBRfQwZbGgkaOEBDFgYUBx4UHloLARQTBFZTWQ9XWQATRRJGFwEK
+ CxYRXBgOHA0LAgseVQ0YW0YEEUALQEBJSERJHgJQW09TVVhYUw4aREQYSR5GFwEKCxYRXBgOHA0L
+ AgseVQ0YW0YHDEILQBpISAcNREUPFBAKWRRZQg8ACkgUF10UQhEdW1UUWUIPAApIFBddFEIYEAJK
+ WgwAUhYYVRNIBlJUFE9eKEwDUAdESlBHSQRXB0FBUUdNBwIiExxRRh0EAgRYGwAVGR0CUBFIS05N
+ VA9PQB0CFhoIVFZGSF5EVl1XCxlHRFcKUwtAHhASEhpCQwEeHBQ3EVNaDQAdSBQXXRQ=
+Authentication-Results: dmarc.icloud.com; dmarc=pass header.from=putsmail.litmus.com
+x-dmarc-info: pass=pass; dmarc-policy=none; s=r1; d=r1
+x-dmarc-policy: v=DMARC1; p=quarantine; pct=100; rua=mailto:jakzmdcn@ag.dmarcian.com; ruf=mailto:dmarc@litmus.com; sp=none; aspf=r;
+Authentication-Results: dkim-verifier.icloud.com;
+	dkim=pass (1024-bit key) header.d=litmus.com header.i=@litmus.com header.b=IFl8H71a
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of bounces+36625-04a1-kitebrucker=icloud.com@putsmail.litmus.com designates 50.31.42.65 as permitted sender) smtp.mailfrom="bounces+36625-04a1-kitebrucker=icloud.com@putsmail.litmus.com"
+Received-SPF: pass (spf.icloud.com: domain of bounces+36625-04a1-kitebrucker=icloud.com@putsmail.litmus.com designates 50.31.42.65 as permitted sender) receiver=p00-spfmilter-6ff467cfbf-tj6jw; client-ip=50.31.42.65; helo=o1.putsmail.litmus.com; envelope-from="bounces+36625-04a1-kitebrucker=icloud.com@putsmail.litmus.com"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=litmus.com;
+	h=from:subject:mime-version:reply-to:to:content-type:
+	content-transfer-encoding;
+	s=s1; bh=rg09oW4I+vBmZRy8K7gJDmXpFL1IGfIBeB2ASY6manY=;
+	b=IFl8H71a1pcOjU3zqQk2XLH0uvGuh2DX/lZh0bqZqDlttoNm1qzGtpdtFy3jq2l/5I5E
+	ypuM70hK0lZJem/SQ7HynSDPRT5TfuIVinMnjESyOZSGquzWu+9JB3RtckY8ZgYsOiVIBj
+	jolIIbNer6b63J7Nk9tvYyfKYHpMZuuYY=
+Received: by filterdrecv-589b9448d8-jvhcb with SMTP id filterdrecv-589b9448d8-jvhcb-1-60CA3D07-B
+        2021-06-16 18:03:51.078960558 +0000 UTC m=+1113238.986501097
+Received: from putsmail.com (unknown)
+	by geopod-ismtpd-6-0 (SG) with ESMTP
+	id MsBK13VITs-vhe2hj92KfQ
+	for <kitebrucker@icloud.com>;
+	Wed, 16 Jun 2021 18:03:50.929 +0000 (UTC)
+Date: Wed, 16 Jun 2021 18:03:51 +0000 (UTC)
+From: Litmus PutsMail <putsmail@putsmail.litmus.com>
+Message-ID: <60ca3d06d6a68_43fe136014ae4870574@fe71e44f-bfba-42d1-95d9-5ddab8b43183.mail>
+Subject: two-col-code
+Mime-Version: 1.0
+Reply-To: hello@litmus.com
+X-SG-EID:
+ =?us-ascii?Q?W6Wzdbu9OTnD1Ix7Hw97xOTfxMzYqCLsonYJk+lpRatrgpe=2FC=2FPNzPyhi4mDhB?=
+ =?us-ascii?Q?7KZxtJ9zRPrsF0sGW0JJZNgwpINmOjaeYgLD+OB?=
+ =?us-ascii?Q?P=2Fdp55nvtvGc8JnrtkeACRDWvUCbGaZ5IfIFiP7?=
+ =?us-ascii?Q?t1YvJQQ79g3y4apgHs0xTLb6bCC6VV2qOP=2FQ6yL?=
+ =?us-ascii?Q?qEaMMniqLAUwjbzjAwq7WMp1doZ0uJKdqr7m43v?=
+ =?us-ascii?Q?V8fZ7SsIFPe+3Xr+0hcVdh4dO4f+kmPUiPGdAep?=
+ =?us-ascii?Q?4congZ+MwYkaDbOfsvUjw=3D=3D?=
+To: kitebrucker@icloud.com
+X-Entity-ID: 58YR/a/PJcG5zCj8H6Er3w==
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_60ca3d06d4006_43fe136014ae4870495";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-MANTSH: 1TEIXWV4bG1oaGkNHB15TTk0aHBgaGx0aGxEKTEMXGxoEHRwEGxMTBBIQGx4aHxo
+ RCkxZFxsaEhEKWUQXYnN7c3ljUHpmekARCllNF2RFRE8RCllJFxpxGhAadwYSEnEYExAZdwYYG
+ gYaEQpZXhdsbHkRCkNOF2dES2VuR31zGB5efktZTVloYFxrZmFfGHhSRFJva14TEQpYXBcZBBo
+ EHh4HHxNIHB4bHhkFGx0EGx0YBBIZBBscEBseGh8aEQpeWRdyBQFtWBEKTVwXGB0aEQpMWhd4b
+ RJDaxEKRVkXaGtrEQpMXxd6BQUFBQUFBQUFHREKTEYXY2trEQpDWhcfGgQZGwQeGAQcHxEKQl4
+ XGxEKQlwXGxEKQksXZAVpGkhtf1JZbXoRCkJJF2R7TXkdH1BkZ1hsEQpCRRdtZVBAHgFTZENke
+ REKQk4XZHtNeR0fUGRnWGwRCkJMF29QHkJ6GxJYAUd5EQpCbBdvXHBPYWd5fXBJUBEKQkAXYkl
+ SHhpSTUBcQlMRCkJYF3pnR0JvTUMfYnpSEQpaWBccEQpwZxdtTExpEl9kZngBUhAeEhEKcGgXY
+ EBdfAVDU05oXBoQGhEKcGgXZWxoYllrRkZgYhIQGhEKcGgXaHsTWEZwWlhCXhsQGhEKcGgXZG8
+ acn5lZWJmWksQGhEKcGgXZhNGQh5vUHhyWGIQGhEKcH0XZG54f2VkXVBGThwQBxsZHREKcH0XY
+ mUSYmd+ckJ+cgUQBxsaHhEKcGsXaAF5BXBDHFBvflgQGhEKcEsXYxgYZX5LfkJyfQUQBxsaGxE
+ KcH0XZgVSHRkfH3xMaW8QGhEKcH8XZAVLaxIafHliWGsQBxsbGxEKcF8XaVBIf05lWnpOTl8QB
+ xsbExEKcF8XYFBkTk5IXnsSTX4QBxsaHxEKcH8XaH5zUk9TRFhffW8QGhEKcF8XZgVSHRkfH3x
+ MaW8QGhEKcGwXZU1iSV1DbmwYf3AQGRoRCm1+FxoRClhNF0sR
+X-CLX-Shades: None
+
+
+----==_mimepart_60ca3d06d4006_43fe136014ae4870495
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<style type="text/css">
+@media only screen and (max-width: 480px){
+.columnContainer{
+display:block !important;
+width:100% !important;}}
+</style>
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+</head>
+
+<body style='margin:0;padding:0;'>
+<table style="width:100%;background-color:#000000;padding:5px;border-style:none;border-width:0px;margin:0px;">
+<tr><td align=center>
+<a href='http://marble.aidaluu.com' style="text-decoration:none;width:100%;font-size:18px;color:#FFFFFF;text-align:center;vertical-align:bottom;font-family:'Segoe UI';">Marble Responsive Email Designer 365 Free</a></td></tr></table>
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+<tr>
+<td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+<div class="Ca7191324b343486082ba5abcf90056da" style="padding:5px;">
+<div style="text-align:center;">
+<span style="font-family:'Segoe UI'; font-size: 25pt;color:#000000;">Email title<br>
+</span><span style ="font-family:'Segoe UI'; font-size: 12pt;color:#116770;">Fall special edition<br></span>
+
+</div>
+
+</div>
+
+</td>
+
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+<tr>
+<td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+<div class="C7f07e28b9de44afb995b74038e5bd3a4" style="padding:5px;">
+<div style="text-align:left;">
+<span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 1<br>
+</b></span>
+</div>
+
+</div>
+<div class="Cba8680acd9734124ab322581636ba861" style="padding:5px;">
+<div style="text-align:left;">
+<span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+<br>
+Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+</span>
+</div>
+
+</div>
+
+</td>
+<td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+<div class="C91674c27ebe24b3ea744973d6bed3027" style="padding:5px;">
+<div style="text-align:left;">
+<span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 2<br>
+</b></span>
+</div>
+
+</div>
+<div class="Cc41d2707fb2340c69a2553a880a734be" style="padding:5px;">
+<div style="text-align:left;">
+<span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+<br>
+Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+</span>
+</div>
+
+</div>
+
+</td>
+
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="background-color:#EBEBEB;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+<tr>
+<td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+<div class="Cbd3c508de7554190a49ff213b7a5ea67" style="padding:5px;">
+<br>
+<br>
+<br>
+<div style="text-align:left;">
+<span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Email footer<br>
+Add contact information and unsubscribe instructions<br>
+<br>
+<br>
+    </span>
+
+</div>
+
+</div>
+
+</td>
+
+</tr>
+</table>
+
+</body>
+</html>
+
+----==_mimepart_60ca3d06d4006_43fe136014ae4870495
+Content-Type: text/watch-html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="UTF-8">
+    <!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+    <![endif]-->
+    <style type="text/css">
+      @media only screen and (max-width: 480px){
+      .columnContainer{
+      display:block !important;
+      width:100% !important;}}
+    </style>
+  </head>
+  <body style="margin:0;padding:0;">
+    <table style="width:100%;background-color:#000000;padding:5px;border-style:none;border-width:0px;margin:0px;">
+      <tr>
+        <td align="center">
+          <a href="http://marble.aidaluu.com" style="text-decoration:none;width:100%;font-size:18px;color:#FFFFFF;text-align:center;vertical-align:bottom;font-family:'Segoe UI';">Marble Responsive Email Designer 365 Free</a>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="Ca7191324b343486082ba5abcf90056da" style="padding:5px;">
+            <div style="text-align:center;">
+              <span style="font-family:'Segoe UI'; font-size: 25pt;color:#000000;">Email title<br>
+              </span><span style="font-family:'Segoe UI'; font-size: 12pt;color:#116770;">Fall special edition<br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="C7f07e28b9de44afb995b74038e5bd3a4" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 1<br>
+                </b></span>
+            </div>
+          </div>
+          <div class="Cba8680acd9734124ab322581636ba861" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+                <br>
+                Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+              </span>
+            </div>
+          </div>
+        </td>
+        <td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="C91674c27ebe24b3ea744973d6bed3027" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 2<br>
+                </b></span>
+            </div>
+          </div>
+          <div class="Cc41d2707fb2340c69a2553a880a734be" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+                <br>
+                Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="background-color:#EBEBEB;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="Cbd3c508de7554190a49ff213b7a5ea67" style="padding:5px;">
+            <br>
+            <br>
+            <br>
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Email footer<br>
+                Add contact information and unsubscribe instructions<br>
+                <br>
+                <br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+----==_mimepart_60ca3d06d4006_43fe136014ae4870495
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="UTF-8">
+    <!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+    <![endif]-->
+    <style type="text/css">
+      @media only screen and (max-width: 480px){
+      .columnContainer{
+      display:block !important;
+      width:100% !important;}}
+    </style>
+  </head>
+  <body style="margin:0;padding:0;">
+    <table style="width:100%;background-color:#000000;padding:5px;border-style:none;border-width:0px;margin:0px;">
+      <tr>
+        <td align="center">
+          <a href="http://marble.aidaluu.com" style="text-decoration:none;width:100%;font-size:18px;color:#FFFFFF;text-align:center;vertical-align:bottom;font-family:'Segoe UI';">Marble Responsive Email Designer 365 Free</a>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="Ca7191324b343486082ba5abcf90056da" style="padding:5px;">
+            <div style="text-align:center;">
+              <span style="font-family:'Segoe UI'; font-size: 25pt;color:#000000;">Email title<br>
+              </span><span style="font-family:'Segoe UI'; font-size: 12pt;color:#116770;">Fall special edition<br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="C7f07e28b9de44afb995b74038e5bd3a4" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 1<br>
+                </b></span>
+            </div>
+          </div>
+          <div class="Cba8680acd9734124ab322581636ba861" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+                <br>
+                Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+              </span>
+            </div>
+          </div>
+        </td>
+        <td align="center" width="50%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="C91674c27ebe24b3ea744973d6bed3027" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 14pt;color:#000000;"><b>Category 2<br>
+                </b></span>
+            </div>
+          </div>
+          <div class="Cc41d2707fb2340c69a2553a880a734be" style="padding:5px;">
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl leo, iaculis eu mattis ut, iaculis non nisi. Ut vitae elit est. <br>
+                <br>
+                Phasellus imperdiet turpis id eros iaculis, a finibus odio fermentum. Aenean pharetra luctus nisl, vitae accumsan odio ornare a. Donec accumsan tincidunt magna, non aliquam leo tempus eu. Vestibulum leo magna, bibendum in rhoncus eget, accumsan nec ante. Nulla facilisi. Nunc rutrum ac libero nec condimentum. Donec venenatis semper venenatis. <br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="background-color:#EBEBEB;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+      <tr>
+        <td align="center" width="100%" style="padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;vertical-align:top;" class="columnContainer">
+          <div class="Cbd3c508de7554190a49ff213b7a5ea67" style="padding:5px;">
+            <br>
+            <br>
+            <br>
+            <div style="text-align:left;">
+              <span style="font-family:'Segoe UI'; font-size: 10.5pt;color:#000000;">Email footer<br>
+                Add contact information and unsubscribe instructions<br>
+                <br>
+                <br>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+----==_mimepart_60ca3d06d4006_43fe136014ae4870495--
