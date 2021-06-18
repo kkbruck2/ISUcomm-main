@@ -194,7 +194,7 @@
                         <td>
                           <div class="small" style="border-spacing:0;vertical-align:top;width:100%;max-width:120px;display:inline-block;">
 
-                            <table role="presentation" class="content" style="border-spacing:0;">
+                            <table role="presentation" align="center" class="content" style="border-spacing:0;">
                               <tr>
                                 <td style="text-align:center;">
                                   <!--[if (gte mso 9)|(IE)]>
@@ -221,7 +221,7 @@
                         <div class="large" style="padding:0;border-spacing:0;vertical-align:top;max-width:480px;display:inline-block;>
                         <![endif]-->
                         <td>
-                          <div class="large" style="padding:10px;">
+                          <div class="large" style="border-spacing:0;vertical-align:top;width:100%;max-width:480px;display:inline-block;">
 
                             <table role="presentation" align="center" class="content" style="border-spacing:0;text-align:left;">
                               <tr>
