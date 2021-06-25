@@ -42,7 +42,15 @@
       .columnContainer {
         display: block !important;
         width: 100% !important;
-      }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+			.columnContainer {
+				display: block!important;
+				width:100%!important;
+				margin:0 auto;
+			}
     }
   </style>
   <!--[if gte mso 9]>
@@ -220,6 +228,8 @@
 <tr>
   <td>
 <![endif]-->
+
+<!--=========================== two column start -->
       <table border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="padding:0;margin:0;">
         <tr>
           <td style="padding:20px 0">
@@ -314,6 +324,8 @@
         </tr>
 
       </table>
+
+<!--=========================== end column start -->
       <!--[if (gte mso 9)|(IE)]>
 </td>
 </tr>
