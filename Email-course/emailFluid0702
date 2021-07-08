@@ -1,0 +1,243 @@
+﻿
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--<![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+  <style type="text/css">
+
+  html,
+ body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+ }
+ div[style*="margin: 16px 0"] {
+     margin: 0 !important;
+ }
+ div[style*="margin: 16px 0"] {
+     margin: 0 !important;
+ }
+
+ td {
+     mso-table-lspace: 0pt !important;
+     mso-table-rspace: 0pt !important;
+ }
+ table {
+     border-spacing: 0 !important;
+     border-collapse: collapse !important;
+     table-layout: fixed !important;
+     margin: 0 auto !important;
+ }
+ img {
+     -ms-interpolation-mode:bicubic;
+ }
+ a {
+     text-decoration: none;
+ }
+ a[x-apple-data-detectors],  /* iOS */
+ .unstyle-auto-detected-links a,
+ .aBn {
+     border-bottom: 0 !important;
+     cursor: default !important;
+     color: inherit !important;
+     text-decoration: none !important;
+     font-size: inherit !important;
+     font-family: inherit !important;
+     font-weight: inherit !important;
+     line-height: inherit !important;
+ }
+ .a6S {
+     display: none !important;
+     opacity: 0.01 !important;
+ }
+ /* ============additional styles added 6/28 1024============= */
+
+ /* ============Media queries for iPhone Start============= */
+
+ /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+ @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+     u ~ div .email-container {
+         min-width: 320px !important;
+     }
+ }
+ /* iPhone 6, 6S, 7, 8, and X */
+ @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+     u ~ div .email-container {
+         min-width: 375px !important;
+     }
+ }
+ /* iPhone 6+, 7+, and 8+ */
+ @media only screen and (min-device-width: 414px) {
+     u ~ div .email-container {
+         min-width: 414px !important;
+     }
+ }
+
+ /* ============Media queries for iPhone End============= */
+
+
+    @media screen and (max-width: 320px) {
+      .email-container {
+        max-width: 100% !important;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+
+        /* What it does: Forces table cells into full-width rows. */
+        .stack-column,
+        .stack-column-center {
+            display: block !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            direction: ltr !important;
+        }
+        /* And center justify these ones. */
+        .stack-column-center {
+            text-align: center !important;
+        }
+
+        /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+        .center-on-narrow {
+            text-align: center !important;
+            display: block !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            float: none !important;
+        }
+        table.center-on-narrow {
+            display: inline-block !important;
+        }
+
+        /* What it does: Adjust typography on small screens to improve readability */
+        .email-container p {
+            font-size: 17px !important;
+        }
+    }
+
+  </style>
+  <!--[if gte mso 9]>
+  <style type="text/css">
+  	table {border-collapse: collapse!important;}
+  </style>
+  <![endif]-->
+
+
+</head>
+
+
+<body style="Margin:0;padding:0;background-color:#cccccc;">
+  <!--[if (gte mso 9)|(IE)]>
+     <style type="text/css">
+        body {background-color:#cccccc!important;}
+        body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+     </style>
+  <![endif]-->
+
+  <center style="width:100%; background-color:#ccc;padding-bottom:40px:">
+    <div style="max-width:600px;background-color:#fafdfe;box-shadow:0 0 10px rgba(0, 0, 0, .2)">
+
+
+      <div style="font-size: 0px;color: #fafdfe;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+        Summer 2021 Professional Development at CTLT
+      </div>
+
+      <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+      </div>
+
+<!-- restart=========================== -->
+
+<!--[if (gte mso 9)|(IE)]>
+<table role="presentation" align="center" style="Margin:0;border-spacing:0;color:#333;max-width:600px;">
+<tr>
+  <td>
+  <![endif]-->
+      <table role="presentation" border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="border-spacing:0;padding:0;margin:0;width:100%;max-width:600px;">
+        <tr>
+          <td align="center" width="100%" style="padding:0;vertical-align:top;" class="columnContainer">
+            <div style="padding:0px;margin:0px;">
+
+              <!--[if (gte mso 9)|(IE)]>
+              <img src="https://assets.illinoisstate.edu/ctlt/images/email/summer.jpg" alt="" title="" width='100%'>
+
+                <div style="width:0px; height: 0px; max-height:0; max-width:0; overflow: hidden; display: none; visibility: hidden; mso-hide:all;border-spacing:0">
+                <![endif]-->
+                <img src="https://assets.illinoisstate.edu/ctlt/images/email/summer.jpg" alt="" title="" width="100%" style="margin:0;width:100%;max-width:600px;">
+
+                <!--[if (gte mso 9)|(IE)]>
+                </div>
+
+                <![endif]-->
+
+
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" align="center" border=0 cellspacing=0 cellpadding=0 width="100%" align="center"style="Margin:0;border-spacing:0;color:#333;max-width:600px;">
+      <tr>
+      <td style="font-size:22px;line-height:26px;>
+      <![endif]-->
+      <table role="presentation" border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="border-spacing:0;padding:0;margin:0;width:100%;max-width:600px;font-size:0;line-height:1px;">
+        <tr>
+          <td align="center" width="100%" style="padding:10px 10px;vertical-align:top;background-color: #ce1126;color:#ffffff;max-width:600px;" class="columnContainer">
+            <div style="padding:0px;margin:0px;">
+              <div style="text-align:center;">
+              <span class="email" style="font-family:Arial,sans-serif;font-size:22px; font-weight:bold;padding:0;background-color:#CE1126;color:#ffffff;border-spacing:0;">Summer 2021 Professional Development at CTLT</span>
+            </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+<!--[if (gte mso 9)|(IE)]>
+    </td>
+  </tr>
+</table>
+<table role="presentation" align="center" style="Margin:0;border-spacing:0;color:#333;max-width:600px;">
+<tr>
+  <td>
+<![endif]-->
+      <table role="presentation" border=0 cellspacing=0 cellpadding=0 width="100%" align="center" style="border-spacing:0;padding:0;margin:0;width:100%;max-width:600px;">
+        <tr>
+          <td align="center" width="100%" style="padding:10px;vertical-align:top;" class="columnContainer">
+            <div style="padding:0px;margin:0px;">
+              <div style="text-align:left;">
+                <p style="font-family:Arial,sans-serif;font-size: 18px;line-height:22px;color:#000000;">The <span style="font-family:Arial,sans-serif; font-size:18px;line-height: 22px;color:#CE1126;text-decoration:none;" href="http://CTLT.IllinoisState.edu">Center for
+                  Teaching, Learning, and Technology</span> offers a wide-range of professional development opportunities this summer to support how you teach and how your students learn. Once again, we're partnering with talented faculty and staff from across campus to explore topics ranging from online course design and delivery to
+                  effective communication with students regardless of modality.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+      <![endif]-->
+    </div>
+  </center>
+</body>
+
+</html>
