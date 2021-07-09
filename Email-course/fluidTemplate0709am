@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
   <!--[if !mso]><!-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!--<![endif]-->
   <title></title>
   <!--[if mso]>
@@ -28,11 +28,11 @@
 
 <body style="margin:0;padding:0;word-spacing:normal;background-color:#939297;">
   <div role="article" aria-roledescription="email" lang="en" style="text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#939297;">
-<!--==== Email preheader text (works like the title setting on web pages) Change to match email title ==== -->
+    <!--==== Email preheader text (works like the title setting on web pages) Change to match email title ==== -->
     <div style="font-size: 0px;color: #fafdfe;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
       Summer 2021 Professional Development at CTLT
     </div>
-<!--==== Start of main body==== -->
+    <!--==== Start of main body==== -->
     <table role="presentation" style="width:100%;border:none;border-spacing:0;">
       <tr>
         <td align="center" style="padding:0;">
@@ -42,10 +42,13 @@
           <td>
           <![endif]-->
           <table role="presentation" style="width:94%;max-width:600px;border:none;border-spacing:0;text-align:left;font-family:Arial,sans-serif;font-size:16px;line-height:22px;background-color:#ffffff;">
+
+<!--==== Start banner===== -->
+
             <tr>
               <td style="padding:0;font-size:0px;line-height:1px;">
                 <div style="padding:0px;margin:0px;">
-<!--==== This mso ghost image and div keeps the banner image the correct width(important on banners) the image source needs to match the banner image.===== -->
+                  <!--==== This mso ghost image and div keeps the banner image the correct width(important on banners) the image source needs to match the banner image.===== -->
                   <!--[if (gte mso 9)|(IE)]>
                   <img src="https://assets.illinoisstate.edu/ctlt/images/email/summer.jpg" alt="" title="" width='100%'>
 
@@ -58,6 +61,8 @@
                 </div>
               </td>
             </tr>
+<!--==== End banner===== -->
+<!--==== Start title bar===== -->
             <tr>
               <td style="padding:0;font-size:0px;line-height:1px;width:100%;max-width:600px;height:auto;display:block;border:none;">
                 <!--[if mso]>
@@ -80,6 +85,8 @@
                 <![endif]-->
               </td>
             </tr>
+<!--==== end title bar===== -->
+<!--==== start intro block ===== -->
             <tr>
               <td style="padding:0;font-size:0px;line-height:1px;width:100%;max-width:600px;height:auto;display:block;border:none;">
                 <!--[if mso]>
@@ -92,8 +99,10 @@
                     <td align="center" width="100%" style="width:100%;max-width:600px;height:auto;display:block;border:none;">
                       <div style="padding:30px 10px 20px 10px;">
                         <div style="text-align:left;">
-                          <p style="font-family:Arial,sans-serif;font-size: 18px;line-height:24px;color:#000000;">The <a href="http://CTLT.IllinoisState.edu" target="_blank" style="font-family:Arial,sans-serif; font-size:18px;line-height: 22px;color:#CE1126;text-decoration:none!important;">Center for
-                              Teaching, Learning, and Technology</a> offers a wide-range of professional development opportunities this summer to support how you teach and how your students learn. Once again, we're partnering with talented faculty and staff from across campus to explore topics ranging from online course design and delivery to effective communication with students regardless of modality.</p>
+                          <p style="font-family:Arial,sans-serif;font-size: 18px;line-height:24px;color:#000000;">The <a href="http://CTLT.IllinoisState.edu" target="_blank"
+                              style="font-family:Arial,sans-serif; font-size:18px;line-height: 22px;color:#CE1126;text-decoration:none!important;">Center for
+                              Teaching, Learning, and Technology</a> offers a wide-range of professional development opportunities this summer to support how you teach and how your students learn. Once again, we're partnering with talented faculty
+                            and staff from across campus to explore topics ranging from online course design and delivery to effective communication with students regardless of modality.</p>
                         </div>
                       </div>
                     </td>
@@ -106,6 +115,9 @@
                 <![endif]-->
               </td>
             </tr>
+<!--==== end intro block ===== -->
+<!-- ====start text block with header====                -->
+
             <tr>
               <td style="padding:0;font-size:0px;line-height:1px;width:100%;max-width:600px;height:auto;display:block;border:none;">
                 <!--[if mso]>
@@ -120,7 +132,8 @@
                         <div style="text-align:left;">
                           <h2 style="font-size:18px;line-height:22px;font-weight:bold;">This an h2 heading</h2>
                           <p style="font-family:Arial,sans-serif;font-size: 18px;line-height:24px;color:#000000;">The Center for
-                            Teaching, Learning, and Technology offers a wide-range of professional development opportunities this summer to support how you teach and how your students learn. Once again, we're partnering with talented faculty and staff from across campus to explore topics ranging from online course effective communication with students regardless of modality.</p>
+                            Teaching, Learning, and Technology offers a wide-range of professional development opportunities this summer to support how you teach and how your students learn. Once again, we're partnering with talented faculty and
+                            staff from across campus to explore topics ranging from online course effective communication with students regardless of modality.</p>
                         </div>
                       </div>
                     </td>
@@ -133,7 +146,8 @@
                 <![endif]-->
               </td>
             </tr>
-<!-- ====This starts the button. ==== -->
+  <!-- ====end text block with header====  -->
+  <!-- ====This starts the button. ==== -->
             <tr>
               <td align="center" style="padding-top:20px;padding-bottom:40px;border-bottom:2px solid #cccccc;">
                 <table role="presentation" align=center style="text-align: center;">
@@ -163,7 +177,9 @@
                 </table>
               </td>
             </tr>
-<!-- ====This starts the footer. ==== -->
+  <!-- ====This ends the button. ==== -->
+  <!-- ====This starts the footer. ==== -->
+  <!-- ====accessibility start==== -->
             <tr>
               <td style="padding-top:20px;padding-bottom:20px;font-size:0px;line-height:1px;width:100%;max-width:600px;height:auto;display:block;">
                 <!--[if mso]>
@@ -189,6 +205,8 @@
                 <![endif]-->
               </td>
             </tr>
+  <!-- ====accessibility start==== -->
+  <!-- ====Branding/twitter start. ==== -->
             <tr>
               <td align="center" style="padding:0;border-bottom:20px solid #ffffff;">
                 <table role="presentation" align=center>
@@ -227,49 +245,43 @@
                 </table>
               </td>
             </tr>
-          </table>
-          <!--[if mso]>
-          </td>
-          </tr>
-          </table>
-          <table role="presentation" align="center" style="max-width:600px;" class="contactTable">
-          <tr>
-          <td>
-          <![endif]-->
-          <table role="presentation" class="contactTable" style="width:100%;max-width:600px;background-color:#ffffff;">
+<!-- ====Branding/twitter end. ==== -->
+<!-- ===== contact block start ===== -->
             <tr>
               <td>
-                <table role="presentation">
+<!-- =====starts contact block this holds all three contact info===== -->
+                <table class="contactTable" align="center" role="presentation" style="min-width:300px;max-width:600px;background-color:#ffffff;border:2px solid purple;">
                   <tr>
                     <td>
-                      <div>
-                      <!--[if (gte mso 9)|(IE)]>
-                       <table role="presentation">
+                      <div style="padding:0;font-size:0px;line-height:1px;height:auto;display:block;min-width:300px;max-width:500px;">
+                        <!-- =====starts ghost tables for each content block===== -->
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" role="presentation" style="width:100%;max-width:400px;">
                        <tr>
-                       <td >
+                       <td style="padding:0;font-size:0px;line-height:1px;width:100%;height:auto;display:block;border:3px solid pink;">
                       <![endif]-->
-
-                        <table role="presentation" style="width:100%;max-width:600px;background-color:#ffffff;">
+                        <table align="center" role="presentation" style="width:80%;max-width:400px;background-color:#ffffff;border:2px dotted red;">
                           <tr>
-                            <td>
-                              <div class="phone">
-                              <!--[if mso]>
-                              <table role="presentation" width="100%">
+                            <td style="padding:0;border:3px dotted green;">
+                              <div class="contact">
+
+                                <!--[if mso]>
+                              <table role="presentation">
                               <tr>
-                              <td style="padding:0;width:32px;display:inline-block;font-size:0;line-height:1px;" valign="middle">
+                              <td width="32" style="Margin:0;padding:0;display:inline-block;font-size:0;line-height:1;text-align:left" valign="middle">
                               <![endif]-->
-                              <div class="icon" style="padding:0;width:32px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px;">
-                                <img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/phoneRed.png" alt="Call CTLT" width="32" style="width:100%;max-width:32px;height:auto;">
-                              </div>
-                              <!--[if mso]>
+                                <div class="icon" style="width:36px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px; border:2px solid red;">
+                                  <img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/phoneRed.png" alt="Call CTLT" width="32" style="width:100%;max-width:36px;height:auto;">
+                                </div>
+                                <!--[if mso]>
                               </td>
-                              <td style="padding:10px;" valign="middle">
+                              <td valign="middle" style="padding-left:10px;Margin-left:10px;font-size:0;line-height:1px;border:1pt solid blue;text-align:left;" valign="middle">
                               <![endif]-->
-                              <div class="textBlock" style="width:100%;max-width:600px;vertical-align:middle;">
+                                <div class="textBlock" style="text-align: left;vertical-align:middle;">
                                   <div style="font-family:Arial,sans-serif;color:#CE1126;font-size:16px;line-height:18px;">
                                     <p style="margin:0;font-family:Arial,sans-serif;text-align:left;"><span style="white-space:nowrap;">(309)438-2542</span></p>
                                   </div>
-                              </div>
+                                </div>
                                 <!--[if mso]>
                               </td>
                               </tr>
@@ -279,24 +291,24 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                              <div class="web" style="font-size:0;text-align:left;">
-                                <!--[if mso]>
-                              <table role="presentation" width="100%">
-                              <tr>
-                              <td style="padding:10px;text-align:left;!important;margin:0;" valign="middle">
-                              <![endif]-->
-                              <div class="icon" style="width:100%;max-width:32px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px;">
+                            <td style="padding:0;border:3px dotted cyan;">
+                              <div class="contact">
 
-                                  <a href="https://ctlt.illinoisstate.edu/"><img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/webRed.png" alt="Visit CTLT" width="32" style="width:100%;max-width:32px;height:auto;"></a>
+                                <!--[if mso]>
+                              <table role="presentation">
+                              <tr>
+                              <td width="32" style="Margin:0;padding:0;display:inline-block;font-size:0;line-height:1;text-align:left" valign="middle">
+                              <![endif]-->
+                                <div class="icon" style="width:36px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px; border:2px solid red;">
+                                  <img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/phoneRed.png" alt="Call CTLT" width="32" style="width:100%;max-width:36px;height:auto;">
                                 </div>
                                 <!--[if mso]>
                               </td>
-                              <td style="padding:10px;text-align:left;!important;margin:0;" valign="middle">
+                              <td valign="middle" style="padding-left:10px;Margin-left:10px;font-size:0;line-height:1px;border:1pt solid blue;text-align:left;" valign="middle">
                               <![endif]-->
-                                <div class="textBlock" style="width:100%;max-width:600px;vertical-align:middle;">
+                                <div class="textBlock" style="text-align: left;vertical-align:middle;">
                                   <div style="font-family:Arial,sans-serif;color:#CE1126;font-size:16px;line-height:18px;">
-                                    <p style="margin:0;font-family:Arial,sans-serif;text-align:left;"><a href="https://ctlt.illinoisstate.edu/" style="color:#CE1126;">CTLT.IllinoisState.edu</a></p>
+                                    <p style="margin:0;font-family:Arial,sans-serif;text-align:left;"><span style="white-space:nowrap;">(309)438-2542</span></p>
                                   </div>
                                 </div>
                                 <!--[if mso]>
@@ -308,24 +320,24 @@
                             </td>
                           </tr>
                           <tr>
-                            <td valign="middle" align="left" style="width:100%;padding:0;text-align:left;">
-                              <div class="web" style="font-size:0;text-align:left;">
-                                <!--[if mso]>
-                              <table role="presentation" width="100%">
-                              <tr>
-                              <td style="padding:10px;text-align:left;!important;margin:0;" valign="middle">
-                              <![endif]-->
-                              <div class="icon" style="width:100%;max-width:32px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px;">
+                            <td style="padding:0;border:3px dotted purple;">
+                              <div class="contact">
 
-                                  <a href="https://ctlt.illinoisstate.edu/"><img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/webRed.png" alt="Visit CTLT" width="32" style="width:100%;max-width:32px;height:auto;"></a>
+                                <!--[if mso]>
+                              <table role="presentation">
+                              <tr>
+                              <td width="32" style="Margin:0;padding:0;display:inline-block;font-size:0;line-height:1;text-align:left" valign="middle">
+                              <![endif]-->
+                                <div class="icon" style="width:36px;display:inline-block;vertical-align:middle;font-family:Arial,sans-serif;font-size:0;line-height:1px; border:2px solid red;">
+                                  <img src="https://assets.illinoisstate.edu/ctlt/images/email/email-icons/1x/phoneRed.png" alt="Call CTLT" width="32" style="width:100%;max-width:36px;height:auto;">
                                 </div>
                                 <!--[if mso]>
                               </td>
-                              <td style="padding:10px;text-align:left;!important;margin:0;" valign="middle">
+                              <td valign="middle" style="padding-left:10px;Margin-left:10px;font-size:0;line-height:1px;border:1pt solid blue;text-align:left;" valign="middle">
                               <![endif]-->
-                                <div class="textBlock" style="width:100%;max-width:600px;vertical-align:middle;">
+                                <div class="textBlock" style="text-align: left;vertical-align:middle;">
                                   <div style="font-family:Arial,sans-serif;color:#CE1126;font-size:16px;line-height:18px;">
-                                    <p style="margin:0;font-family:Arial,sans-serif;text-align:left;"><a href="https://ctlt.illinoisstate.edu/" style="color:#CE1126;">CTLT.IllinoisState.edu</a></p>
+                                    <p style="margin:0;font-family:Arial,sans-serif;text-align:left;"><span style="white-space:nowrap;">(309)438-2542</span></p>
                                   </div>
                                 </div>
                                 <!--[if mso]>
@@ -336,30 +348,25 @@
                               </div>
                             </td>
                           </tr>
+
                         </table>
                         <!--[if (gte mso 9)|(IE)]>
-                    </td>
-                    </tr>
-                    </table>
-                  <![endif]-->
+              </td>
+              </tr>
+              </table>
+            <![endif]-->
+                        <!-- =====ends ghost table for each content block this holds all three contact info===== -->
                       </div>
                     </td>
 
                   </tr>
                 </table>
+                <!-- =====ends contact block this holds all three contact info===== -->
 
               </td>
             </tr>
-          </table>
-          <!--[if mso]>
-            </td>
-            </tr>
-            </table>
-            <table role="presentation" align="center" style="max-width:600px;">
-            <tr>
-            <td>
-            <![endif]-->
-          <table  role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color:#ffffff;max-width:600px;">
+            <!-- =====centering copyright block===== -->
+
             <tr>
               <td style="padding:0;text-align:center;">
                 <p style="font-family:Arial,sans-serif;font-size:14px;line-height:24px;">Illinois State
@@ -374,18 +381,6 @@
                 <![endif]-->
         </td>
       </tr>
-
-
-
-
-    </table>
-    <!--[if mso]>
-          </td>
-          </tr>
-          </table>
-          <![endif]-->
-    </td>
-    </tr>
     </table>
   </div>
 </body>
